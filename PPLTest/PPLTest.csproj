@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6CF264C2-4FCE-4DF2-A2A3-6A3B438C265B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PPLTest</RootNamespace>
+    <AssemblyName>PPLTest</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySqlOperator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MySqlOperator\bin\Debug\MySqlOperator.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.2.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Selenium\selenium-remote-control-1.0.3\selenium-dotnet-client-driver-1.0.1\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rex, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\0学习资料\Regular.Expressions\Rex.exe</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Selenium\selenium-remote-control-1.0.3\selenium-dotnet-client-driver-1.0.1\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassLib\CommonServices.cs" />
+    <Compile Include="ClassLib\DataBase.cs" />
+    <Compile Include="ClassLib\Log.cs" />
+    <Compile Include="ClassLib\XLSDataReader.CS" />
+    <Compile Include="ClassLib\XmlHelper.cs" />
+    <Compile Include="MySuite\SuiteProvider.cs" />
+    <Compile Include="MySuite\Suites.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCases\BaseCase.cs" />
+    <Compile Include="TestCases\Common\login.cs" />
+    <Compile Include="TestCases\Common\Logout.cs" />
+    <Compile Include="TestCases\Common\ProgramandRole_admin.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\ManageUsers\SearchUsers.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\AssociatedProvidersSuc_Name.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\BackToBudgets.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\CancelChecklist.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\CreateNewAuthorization.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\DisassociateProvider.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\EditParticipant.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\GoToAuthorizations.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\MonthlyBudgetDetail.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\NewBudgetPeriod.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\NewParticipant.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\SaveChecklist.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\SearchAssociatedProviders.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\SearchParticipant.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\ShowAssociatedProvidersSuc.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Participant\ShowChecklist.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Provider\Add_IP.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Provider\Edit_IP.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Provider\ReturntoSearch.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Provider\SearchProviders.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\SupportTickets\ShowAllSupportTickets.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\SupportTickets\ShowCloseSupportTickets.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\SupportTickets\ShowOpenSupportTickets.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\SupportTickets\ShowSupportTicket.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\TimesheetList\SearchTimesheetList.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\TimesheetList\ViewOfTimesheetList.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\CreateTimesheetSubmitSuc.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\DeleteTimesheet.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\EditTime.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\GotoSelectParticipant.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\SaveTimesheet.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\SearchTimesheet.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\SelectParticipant.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\SubmitTimesheet.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\TimeInOut.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\TimesheetLookUp.cs" />
+    <Compile Include="TestCases\CO\Role_PPLAdmin\Timesheets\ViewOfTimesheet.cs" />
+    <Compile Include="TestCases\EndTest.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\ContactUs\ContactUs.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\EmailNotification\Add_Email.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\EmailNotification\Delete_Email.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\CancelEditALine.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\EditALine.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\GotoSearchInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\GotoSelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\GotoSubmitInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\SearchInvoices.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\SelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\SelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\SubmitInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\SubmitInvoiceNoTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\ViewInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\ViewInvoiceAndDelete.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Invoice\ViewInvoiceApprove.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\ManageUsers\UserSearch.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\AssociatedProvidersBack.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\AssociatedProvidersSuc_ID.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\AssociatedProvidersSuc_Name.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\BackToBudgets.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\CancelChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\CreateNewAuthorization.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\DisassociatedProvidersProviderID.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\DisassociateProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\DisassociateProviderCancel.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\EditParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\GoToAuthorizations.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\MonthlyBudgetDetail.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\NewBudgetPeriod.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\NewParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\SaveChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\SearchAssociatedProviders.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\SearchParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\ShowAssociatedProvidersSuc.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Participant\ShowChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Provider\Add_AG.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Provider\Add_IP.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Provider\Edit_IP.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Provider\ReturntoSearch.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Provider\SearchProviders.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\SupportTickets\ShowAllSupportTickets.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\SupportTickets\ShowCloseSupportTickets.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\SupportTickets\ShowOpenSupportTickets.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\SupportTickets\ShowSupportTicket.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TimesheetList\SearchTimesheetList.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TimesheetList\SearchTimesheetListMoreThanOneProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TimesheetList\SearchTimesheetListSelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TimesheetList\ViewOfTimesheetList.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\CreateTimesheetSubmitSuc.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\EditTime.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\EditTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\GotoSelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\SaveTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\SearchTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\SelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\SubmitAndApprove.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\SubmitTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\TimeInOut.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\Timesheets\ViewOfTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\CancelEditALine.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\EditALine.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\GotoSearchInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\GotoSelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\GotoSubmitInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\SearchInvoices.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\SelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\SelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\SubmitInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\SubmitInvoiceNoTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\ViewInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\ViewInvoiceAndDelete.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Invoice\ViewInvoiceApprove.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersBack.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersChecklistSuc.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersServices.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersServicesForSong.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersSuc_ID.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\AssociatedProvidersSuc_Name.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\BackToBudgets.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\BackToConsumerProfile.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\BackToConsumerProfileFromMDS.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\CancelChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\CancelServiceDetail.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\CreateNewAuthorization.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\DisassociatedProvidersProviderID.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\DisassociateProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\DisassociateProviderCancel.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\EditParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\GetAutIDFromServiceDetail.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\MonthlyBudgetDetail.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\NewBudgetPeriod.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\NewBudgetPeriodForSong.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\NewParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\SaveChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\SaveMDSForm.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\SearchAssociatedProviders.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\SearchParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\SearchParticipantForInvoice.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\ShowAssociatedProvidersSuc.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\ShowChecklist.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\ShowChecklistFromConsumerProfile.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Participant\ShowMDSForm.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\Add_AG.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\Add_Empty.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\Add_IP.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\Edit_IP.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\ReturntoSearch.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\ReturntoSearchForSong.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Provider\SearchProviders.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\TimesheetList\SearchTimesheetList.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\TimesheetList\SearchTimesheetListMoreThanOneProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\TimesheetList\SearchTimesheetListSelectProvider.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\TimesheetList\ViewOfTimesheetList.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\CreateTimesheetSubmitSuc.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\EditTime.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\EditTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\GotoSelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SaveTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SearchTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SelectConsumerWithoutSearch.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SelectParticipant.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SubmitAndApprove.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\SubmitTimesheet.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\TimeInOut.cs" />
+    <Compile Include="TestCases\GA\Role_PPLAdmin\TotalTimesheetInt\Timesheets\ViewOfTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\ContactUs\ContactUs.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\AddNewLines.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\CancelAddNewLines.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\CancelDeleteALine.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\CancelEditALine.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\CancelSearchParticipantID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\CancelSearchProviderID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\DeleteALine.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\EditALine.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GoBackFromAutDetail.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSearchInvoice.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSearchInvoiceFromCreate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSearchParticipantID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSearchProviderID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSelectProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\GotoSubmitInvoice.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ManageFiles.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ManageFilesAdd.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ManageFilesAndRemove.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ReferralIDCloseAutDetail.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ReferralIDShowAutDetail.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SearchInvoices.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SearchParticipantID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SearchProviderID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SelectDifferentProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SelectParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SelectParticipantID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SelectProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SelectProviderID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SubmitInvoice.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SubmitInvoiceDidnotSelectTermsAndConditions.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\SubmitInvoiceNoTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ViewInvoice.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ViewInvoiceAndDelete.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Invoice\ViewInvoiceApprove.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\ManageUsers\SearchUsers.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\AssociatedProvidersBack.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\AssociatedProvidersSuc_ID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\AssociatedProvidersSuc_Name.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\BackToBudgets.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\CancelChecklist.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\CreateNewAuthorization.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\DisassociatedProvidersProviderID.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\DisassociateProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\DisassociateProviderCancel.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\EditParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\GoToAuthorizations.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\MonthlyBudgetDetail.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\NewBudgetPeriod.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\NewParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\SaveChecklist.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\SearchAssociatedProviders.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\SearchParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\ShowAssociatedProvidersSuc.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Participant\ShowChecklist.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Provider\Add_AG.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Provider\Add_IP.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Provider\Edit_IP.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Provider\ReturntoSearch.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Provider\SearchProviders.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\SupportTickets\ShowAllSupportTickets.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\SupportTickets\ShowCloseSupportTickets.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\SupportTickets\ShowOpenSupportTickets.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\SupportTickets\ShowSupportTicket.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\GotoTimesheetTemplateFromTimesheetList.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetList.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetListFailed.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetListFailedNoProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetListMoreThanOneProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetListSelectProvider.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\SearchTimesheetListWrongDateFormat.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\TimesheetList\ViewOfTimesheetList.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\CreateTemplateEdit.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\CreateTimesheetSubmitSuc.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\DeleteTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\DeleteTimesheetTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\EditTime.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\EditTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\EditTimesheetTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\EnterTimesheetTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\GotoCreateTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\GotoSelectParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\GotoTimesheetTemplateFromTimesheetList.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\GotoTimesheetTemplates.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\LoadTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\ManageTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SaveTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SearchTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SearchTimesheetFailed.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SearchTimesheetWrongDateFormat.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SelectParticipant.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SubmitAndApprove.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SubmitTemplate.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\SubmitTimesheet.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\TimeInOut.cs" />
+    <Compile Include="TestCases\ME\Role_PPLAdmin\Timesheets\ViewOfTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\ContactUs\ContactUs.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\AddNewLines.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\CancelAddNewLines.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\CancelDeleteALine.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\CancelEditALine.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\CancelSearchParticipantID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\CancelSearchProviderID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\DeleteALine.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\EditALine.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GoBackFromAutDetail.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSearchInvoice.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSearchInvoiceFromCreate.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSearchParticipantID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSearchProviderID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSelectProvider.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\GotoSubmitInvoice.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ManageFiles.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ManageFilesAdd.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ManageFilesAndRemove.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ReferralIDCloseAutDetail.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ReferralIDShowAutDetail.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SearchInvoices.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SearchParticipantID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SearchProviderID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SelectDifferentProvider.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SelectParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SelectParticipantID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SelectProvider.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SelectProviderID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SubmitInvoice.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SubmitInvoiceDidnotSelectTermsAndConditions.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\SubmitInvoiceNoTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ViewInvoice.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ViewInvoiceAndDelete.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Invoice\ViewInvoiceApprove.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\ManageUsers\SearchUsers.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\AssociatedProvidersBack.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\AssociatedProvidersSuc_ID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\AssociatedProvidersSuc_Name.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\BackToBudgets.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\CancelChecklist.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\CreateNewAuthorization.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\DisassociatedProvidersProviderID.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\DisassociateProvider.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\DisassociateProviderCancel.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\EditParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\GoToAuthorizations.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\MonthlyBudgetDetail.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\NewBudgetPeriod.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\NewParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\SaveChecklist.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\SearchAssociatedProviders.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\SearchParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\ShowAssociatedProvidersSuc.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Participant\ShowChecklist.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Provider\Add_AG.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Provider\Add_IP.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Provider\Edit_IP.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Provider\ReturntoSearch.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Provider\SearchProviders.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\SupportTickets\ShowAllSupportTickets.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\SupportTickets\ShowCloseSupportTickets.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\SupportTickets\ShowOpenSupportTickets.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\SupportTickets\ShowSupportTicket.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\TimesheetList\SearchTimesheetList.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\TimesheetList\ViewOfTimesheetList.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\CreateTimesheetSubmitSuc.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\DeleteTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\EditTime.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\EditTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\GotoSelectParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\SaveTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\SearchTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\SelectParticipant.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\SubmitAndApprove.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\SubmitTimesheet.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\TimeInOut.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\TimesheetLookUp.cs" />
+    <Compile Include="TestCases\OK\Role_PPLAdmin\Timesheets\ViewOfTimesheet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

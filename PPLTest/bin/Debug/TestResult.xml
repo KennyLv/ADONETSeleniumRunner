@@ -1,0 +1,2336 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Suites" total="75" errors="0" failures="75" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-03-10" time="22:03:36">
+  <environment nunit-version="2.5.8.10295" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Windows\System32" machine-name="PC10213" user="lv_qing" user-domain="HOPERUN-DOMAIN" />
+  <culture-info current-culture="zh-CN" current-uiculture="en-US" />
+  <test-suite type="TestSuite" name="Suites" executed="True" result="Failure" success="False" time="3.057" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="2.215" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="GoToAuthorizations" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.GoToAuthorizations..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.GoToAuthorizations.GoToAuthorizationsTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in GoToAuthorizations]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="MonthlyBudgetDetail" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.MonthlyBudgetDetail..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.MonthlyBudgetDetail.MonthlyBudgetDetailTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in MonthlyBudgetDetail]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders.SearchProvidersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders.SearchProvidersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders.SearchProvidersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders.SearchProvidersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Provider.SearchProviders.SearchProvidersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowSupportTicket" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowSupportTicket]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowAllSupportTickets" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowAllSupportTickets]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowSupportTicket" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowSupportTicket]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowAllSupportTickets" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowAllSupportTickets]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowSupportTicket" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowSupportTicket]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowCloseSupportTickets" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowCloseSupportTickets..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowCloseSupportTickets.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowCloseSupportTickets]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowSupportTicket" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowSupportTicket]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowOpenSupportTickets" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowOpenSupportTickets..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.SupportTickets.ShowOpenSupportTickets.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowOpenSupportTickets]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowAssociatedProvidersSuc" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowAssociatedProvidersSuc]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchAssociatedProviders" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchAssociatedProviders..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchAssociatedProviders.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchAssociatedProviders]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowAssociatedProvidersSuc" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowAssociatedProvidersSuc]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchParticipant" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.SearchParticipant.SearchParticipantTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchParticipant]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ShowChecklist" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowChecklist..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.ShowChecklist.TheUntitledTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ShowChecklist]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="CancelChecklist" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Participant.CancelChecklist..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Participant.CancelChecklist.ChecklistSuccessfulTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in CancelChecklist]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="GotoSearchInvoice" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.GotoSearchInvoice..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.GotoSearchInvoice.GotoSearchInvoiceTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in GotoSearchInvoice]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchInvoices" executed="True" result="Error" success="False" time="0.016" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.SearchInvoices..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.SearchInvoices.SearchInvoicesTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchInvoices]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ViewInvoice" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.ViewInvoice..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Invoice.ViewInvoice.ViewInvoiceTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ViewInvoice]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchTimesheet" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.SearchTimesheet..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.SearchTimesheet.SearchTimesheetTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchTimesheet]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ViewOfTimesheet" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.ViewOfTimesheet..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.ViewOfTimesheet.ViewOfTimesheetTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ViewOfTimesheet]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchTimesheet" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.SearchTimesheet..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.Timesheets.SearchTimesheet.SearchTimesheetTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchTimesheet]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchTimesheetList" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList.SearchTimesheetListTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchTimesheetList]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ViewOfTimesheetList" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.ViewOfTimesheetList..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.ViewOfTimesheetList.ViewOfTimesheetListTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ViewOfTimesheetList]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchTimesheetList" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList.SearchTimesheetListTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchTimesheetList]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="login" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.login..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.login.LoginTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in login]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="ProgramandRole_admin" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.ProgramandRole_admin..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.ProgramandRole_admin.RoleSelectTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in ProgramandRole_admin]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="SearchUsers" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.ME.Role_PPLAdmin.ManageUsers.SearchUsers..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.ME.Role_PPLAdmin.ManageUsers.SearchUsers.SearchUsersTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in SearchUsers]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="Logout" executed="True" result="Error" success="False" time="0.000" asserts="0">
+        <failure>
+          <message><![CDATA[SetUp : System.TypeInitializationException : The type initializer for 'PPLTest.TestCases.BaseCase' threw an exception.
+  ----> System.Net.WebException : Unable to connect to the remote server
+  ----> System.Net.Sockets.SocketException : No connection could be made because the target machine actively refused it 127.0.0.1:4445]]></message>
+          <stack-trace><![CDATA[at PPLTest.TestCases.BaseCase..ctor()
+at PPLTest.TestCases.Common.Logout..ctor()
+--WebException
+at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+at System.Net.HttpWebRequest.GetRequestStream()
+at Selenium.HttpCommandProcessor.CreateWebRequest(IRemoteCommand command)
+at Selenium.HttpCommandProcessor.DoCommand(String command, String[] args)
+at Selenium.HttpCommandProcessor.GetString(String commandName, String[] args)
+at Selenium.HttpCommandProcessor.Start()
+at Selenium.DefaultSelenium.Start()
+at PPLTest.TestCases.BaseCase..cctor() in D:\1PPLTEST备份\++++++PPL NEW REQUEST\PPLTest\PPLTest\TestCases\BaseCase.cs:line 79
+--SocketException
+at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+]]></stack-trace>
+        </failure>
+        <results>
+          <test-case name="PPLTest.TestCases.Common.Logout.LogoutTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+            <failure>
+              <message><![CDATA[TestFixtureSetUp failed in Logout]]></message>
+              <stack-trace />
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="EndTest" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+    </results>
+  </test-suite>
+</test-results>

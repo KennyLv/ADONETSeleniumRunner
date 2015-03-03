@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PPLTestMonitor.Properties" GeneratedClassName="mySettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Send" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SmtpHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="SmtpPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SmtpUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hoperunqa.ppl@gmail.com</Value>
+    </Setting>
+    <Setting Name="SmtpPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hoperunqa</Value>
+    </Setting>
+    <Setting Name="CcAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hoperunqalisa@gmail.com</Value>
+    </Setting>
+    <Setting Name="FilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PPL</Value>
+    </Setting>
+    <Setting Name="MaxTimeOutNum_all" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="TimeOutFilter_all" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="TimeOutSpan_all" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="SingleStateRunTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="TotalRunTime" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.20.70.10;Database=ppl_monitor;User ID=admin;Password=123456</Value>
+    </Setting>
+    <Setting Name="TimeOutFilter_fun" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="TimeOutSpan_fun" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="MaxTimeOutNum_fun" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="StatesStartTimeSpan" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

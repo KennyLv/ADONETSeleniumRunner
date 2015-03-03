@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Config>\Config_ME.xlsx</Config>
+  <RC_Port>4445</RC_Port>
+  <URL>https://fmsdev.publicpartnerships.com/Portalprep</URL>
+  <TimeOutSpan>30000</TimeOutSpan>
+<Envior>Prep</Envior>
+</Settings>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ReportStyle\ResultReportxslt_ME.xsl"?>
+<test-results Total="13">
+  <test-suite Int_Name="Postive_Search_Participant_Int" Int_Description="Search Participant Success. " Int_MenuName="Participant" Int_Role="PPL Admin" ID="Suite0" Int_Program="ME" Int_Subfunction="Search Participant" TotalStep="5">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in TEST - ME rep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in TEST - ME rep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="3">
+      <StepDescription StepDes="Search Participant" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="4">
+      <StepDescription StepDes="Search Participant" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="5">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="BudgetDetail_Int" Int_Description="Budget Detail" Int_MenuName="Participant" Int_Role="PPL Admin" ID="Suite1" Int_Program="ME" Int_Subfunction="Authorizations" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME  Prep portal site and open Consumer search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME  Prep portal site and open Consumer search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="3">
+      <StepDescription StepDes="Click on 'Consumer Search' link" />
+      <StepDescription StepDes="Enter Consumer last name and click on Search button" />
+      <StepDescription StepDes="Verify Consumer data should display for Consumer last name." />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.GoToAuthorizations" ID="4">
+      <StepDescription StepDes="Click the 'Service Plans' link and open Budget Summary page" />
+      <StepDescription StepDes="Verify Budget Summary line is for the correct consumer and id number" />
+      <StepDescription StepDes="Check Budget List Title" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.MonthlyBudgetDetail" ID="5">
+      <StepDescription StepDes="Click on 'Budget Detail ' button" />
+      <StepDescription StepDes="Go to Service Budget Detail screen" />
+      <StepDescription StepDes="Verify Service Budget Detail screen is for the correct consumer and id number:consumer name and id display correctly." />
+      <StepDescription StepDes="Verify Service Budget summary fields display&#xA;Should display &#xA;Total Referrals, Total Spent, Total ReferralsBalance&#xA;Start Date,  End Date" />
+      <StepDescription StepDes="Verify  three active icons ,These should be New Service Referral, Back to Budgets, Back to Consumer Profile" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Postive_SearchProvider_Int" Int_Description="Search a provider depending on different conditions about selection." Int_MenuName="Provider Search" Int_Role="PPL Admin" ID="Suite2" Int_Program="ME" Int_Subfunction="Provider Search" TotalStep="8">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME rep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME rep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Provider.SearchProviders" ID="3">
+      <StepDescription StepDes="Click on 'Provider Search' tab" />
+      <StepDescription StepDes="Enter 'Provider Agency name' and click on 'Search' button on 'Vendor/Provider Search' page" />
+      <StepDescription StepDes="Verity Provider data should display for 'Agency name'" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Provider.SearchProviders" ID="4">
+      <StepDescription StepDes="Click on 'Provider Search' tab" />
+      <StepDescription StepDes="Enter 'Provider Last name' and click on 'Search' button on 'Vendor/Provider Search' page" />
+      <StepDescription StepDes="Verity Provider data should display for 'Last name'" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Provider.SearchProviders" ID="5">
+      <StepDescription StepDes="Click on 'Provider Search' tab" />
+      <StepDescription StepDes="Enter 'Provider First name' and click on 'Search' button on 'Vendor/Provider Search' page" />
+      <StepDescription StepDes="Verity Provider data should display for 'First name'" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Provider.SearchProviders" ID="6">
+      <StepDescription StepDes="Click on 'Provider Search' tab" />
+      <StepDescription StepDes="Enter 'Provider ID' and click on 'Search' button on 'Vendor/Provider Search' page" />
+      <StepDescription StepDes="Verity Provider data should display for 'Provider ID'" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Provider.SearchProviders" ID="7">
+      <StepDescription StepDes="Click on 'Provider Search' tab" />
+      <StepDescription StepDes="don't enter any information and click on 'Search' button on 'Vendor/Provider Search' page" />
+      <StepDescription StepDes="Verity all Provider data display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="8">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_ShowAllSupportTickets_Int" Int_Description="Search  All Support Tickets successful." Int_MenuName="Support Tickets" Int_Role="PPL Admin" ID="Suite3" Int_Program="ME" Int_Subfunction="Filter" TotalStep="7">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket" ID="3">
+      <StepDescription StepDes="Click on 'Support Tickets' link" />
+      <StepDescription StepDes="Check go to Support Tickets page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets" ID="4">
+      <StepDescription StepDes="Click on 'All' button,  enter all information and click on 'Filter' button" />
+      <StepDescription StepDes="Verify all Support Tickets data should display" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket" ID="5">
+      <StepDescription StepDes="Click on 'Support Tickets' link" />
+      <StepDescription StepDes="Check go to Support Tickets page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowAllSupportTickets" ID="6">
+      <StepDescription StepDes="Click on 'All' button,  enter all information and click on 'Filter' button" />
+      <StepDescription StepDes="Verify all Support Tickets data should display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="7">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_ShowCloseSupportTickets_Int" Int_Description="Search  Close Support Tickets successful." Int_MenuName="Support Tickets" Int_Role="PPL Admin" ID="Suite4" Int_Program="ME" Int_Subfunction="Filter" TotalStep="5">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket" ID="3">
+      <StepDescription StepDes="Click on 'Support Tickets' link" />
+      <StepDescription StepDes="Check go to Support Tickets page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowCloseSupportTickets" ID="4">
+      <StepDescription StepDes="Click on 'Close' button,  Don't enter any information and click on 'Filter' button" />
+      <StepDescription StepDes="Verify all Close Support Tickets data should display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="5">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_ShowOpenSupportTickets_Int" Int_Description="Search  Open Support Tickets successful." Int_MenuName="Support Tickets" Int_Role="PPL Admin" ID="Suite5" Int_Program="ME" Int_Subfunction="Filter" TotalStep="5">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowSupportTicket" ID="3">
+      <StepDescription StepDes="Click on 'Support Tickets' link" />
+      <StepDescription StepDes="Check go to Support Tickets page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.SupportTickets.ShowOpenSupportTickets" ID="4">
+      <StepDescription StepDes="click on 'Filter' button" />
+      <StepDescription StepDes="Verify all Open Support Tickets data should display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="5">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_SearchAssociatedProviders_Int" Int_Description="Search Providers in the 'Associate Providers to Participant' page successful." Int_MenuName="Participant" Int_Role="PPL Admin" ID="Suite6" Int_Program="ME" Int_Subfunction="Associated Providers" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="3">
+      <StepDescription StepDes="Enter 'Participant Last name' and click on 'Search' button" />
+      <StepDescription StepDes="Verify Participant data should display for Participant last name" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc" ID="4">
+      <StepDescription StepDes="Click on 'Participant Profile' link" />
+      <StepDescription StepDes="Check 'Participant Profile' page shall display." />
+      <StepDescription StepDes="Click on 'Associated Providers' button" />
+      <StepDescription StepDes="Check 'Participant Associate Providers' page shall display." />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchAssociatedProviders" ID="5">
+      <StepDescription StepDes="Enter 'Provider ID' ,' Provider Last Name' and click on 'Search' button in 'Participant Associate Provider' page." />
+      <StepDescription StepDes="Verify Provider data should display for Provider  First Name" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_ShowAssociatedProviders_Int" Int_Description="Show the 'Associated Providers' Page Successful." Int_MenuName="Participant" Int_Role="PPL Admin" ID="Suite7" Int_Program="ME" Int_Subfunction="Associated Providers" TotalStep="5">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="3">
+      <StepDescription StepDes="Enter 'Participant Last name' and click on 'Search' button" />
+      <StepDescription StepDes="Verify Participant data should display for Participant last name" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.ShowAssociatedProvidersSuc" ID="4">
+      <StepDescription StepDes="Click on 'Participant Profile' link" />
+      <StepDescription StepDes="Check 'Participant Profile' page shall display." />
+      <StepDescription StepDes="Click on 'Associated Providers' button" />
+      <StepDescription StepDes="Check 'Participant Associate Providers' page shall display." />
+    </test-case>
+    <test-case Name="Common.Logout" ID="5">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Positive_Cancel_Checklist_Int" Int_Description="Cancel Checklist" Int_MenuName="Participant" Int_Role="PPL Admin" ID="Suite8" Int_Program="ME" Int_Subfunction="Checklist" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.SearchParticipant" ID="3">
+      <StepDescription StepDes="Enter 'Participant Last name' and click on 'Search' button" />
+      <StepDescription StepDes="Verify Participant data should display for Participant last name" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.ShowChecklist" ID="4">
+      <StepDescription StepDes="Click on 'Participant Profile' link" />
+      <StepDescription StepDes="Check 'Participant Profile' page shall display." />
+      <StepDescription StepDes="Click on 'Checklist' button" />
+      <StepDescription StepDes="Check 'Checklist' page shall display." />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Participant.CancelChecklist" ID="5">
+      <StepDescription StepDes="click on 'Cancel' button in 'Checklist' page." />
+      <StepDescription StepDes="Verify checklist saved sucessfully" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Search_Invoice_ViewInvoice" Int_Description="View a positive Invoice" Int_MenuName="Invoice" Int_Role="PPL Admin" ID="Suite9" Int_Program="ME" Int_Subfunction="Search Invoice Status" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Invoice.GotoSearchInvoice" ID="3">
+      <StepDescription StepDes="Click the 'Invoice'  link and open Invoice search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Invoice.SearchInvoices" ID="4">
+      <StepDescription StepDes="Enter Invoice search criteria and click on 'Search' button" />
+      <StepDescription StepDes="Verify Invoice search performed according to entered criteria." />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Invoice.ViewInvoice" ID="5">
+      <StepDescription StepDes="Click the 'Invoice ID' link  and open View Invoice page" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Search_Timesheet_ViewOfTimesheet_Prod" Int_Description="View a positive timesheet" Int_MenuName="Timesheets" Int_Role="PPL Admin" ID="Suite10" Int_Program="ME" Int_Subfunction="Search Timesheet" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Timesheets.SearchTimesheet" ID="3">
+      <StepDescription StepDes="Click 'Timesheets' link and open the Search Timesheets page" />
+      <StepDescription StepDes="Search Timesheet which status is Submitted or Approved with all right data,verify a table of Timesheet shall display" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Timesheets.ViewOfTimesheet" ID="4">
+      <StepDescription StepDes="Click the 'View' button in the searched table and open View Timesheet page" />
+      <StepDescription StepDes="Click the 'Show printable version (PDF)' button  and open a download dialog box" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.Timesheets.SearchTimesheet" ID="5">
+      <StepDescription StepDes="Click 'Timesheets' link and open the Search Timesheets page" />
+      <StepDescription StepDes="Search Timesheet which status is All verify all Timesheet shall display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Search_TimesheetList_ViewOfTimesheetList_Prod" Int_Description="View a positive timesheet list" Int_MenuName="Timesheet List" Int_Role="PPL Admin" ID="Suite11" Int_Program="ME" Int_Subfunction="Search Timesheet List" TotalStep="6">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in WA DSHS Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList" ID="3">
+      <StepDescription StepDes="Click 'Timesheet List' link and open the Search Timesheet List page" />
+      <StepDescription StepDes="Search Timesheet with all right data,verify a table of Timesheet shall display" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.TimesheetList.ViewOfTimesheetList" ID="4">
+      <StepDescription StepDes="Click the 'View' button in the searched table and open View Timesheet page" />
+      <StepDescription StepDes="Click the 'Show printable version (PDF)' button  and open a download dialog box" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.TimesheetList.SearchTimesheetList" ID="5">
+      <StepDescription StepDes="Click 'Timesheet List' link and open the Search Timesheet List page" />
+      <StepDescription StepDes="Don't enter any information of  Timesheet,verify  Timesheet shall all display" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="6">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+  <test-suite Int_Name="Postive_SearchUser_Int" Int_Description="Search Users  ." Int_MenuName="Manage Users" Int_Role="PPL Admin" ID="Suite12" Int_Program="ME" Int_Subfunction="Search Users" TotalStep="4">
+    <test-case Name="Common.login" ID="1">
+      <StepDescription StepDes="Login in ME Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="Common.ProgramandRole_admin" ID="2">
+      <StepDescription StepDes="Login in ME Prep portal site and open Participant search page" />
+    </test-case>
+    <test-case Name="ME.Role_PPLAdmin.ManageUsers.SearchUsers" ID="3">
+      <StepDescription StepDes="Click on 'Manage Users' tab" />
+      <StepDescription StepDes="Enter search criteria and click on 'Search' button on 'Manage Users' page" />
+      <StepDescription StepDes="Verity Provider data should display for 'Agency name'" />
+    </test-case>
+    <test-case Name="Common.Logout" ID="4">
+      <StepDescription StepDes="Logout" />
+    </test-case>
+  </test-suite>
+</test-results>
