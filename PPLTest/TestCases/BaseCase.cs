@@ -81,7 +81,7 @@ namespace PPLTest.TestCases
             int serverPort = SuiteProvider.SeleniumServerPort;
             string weburl = SuiteProvider.TestingEnvironment_url;
             timeOutSpan = SuiteProvider.TimeOutSpan;
-            // for prep   https://fmsdev.publicpartnerships.com/Portalprep/
+            
             selenium = new DefaultSelenium("localhost", serverPort, "*chrome", weburl);
             //start the selenium
             selenium.Start();
@@ -684,7 +684,7 @@ namespace PPLTest.TestCases
                     //if the column was identified by column name
                     #region convert the column name to column No.
                     //get the count of all columns in the table
-                    string TotalColNumber = selenium.GetXpathCount("//table[@id='" + sArray[0].Trim() + "']/tbody//td").ToString();//计算一共多少行
+                    string TotalColNumber = selenium.GetXpathCount("//table[@id='" + sArray[0].Trim() + "']/tbody//td").ToString();//录脝脣茫脪禄鹿虏露脿脡脵脨脨
                     for (int i = 1; i <= int.Parse(TotalColNumber); i++)
                     {
                         if (selenium.GetText("//table[@id='" + sArray[0].Trim() + "']/tbody/tr[1]/th[" + i.ToString() + "]").Trim() == sArray[1].Trim())
