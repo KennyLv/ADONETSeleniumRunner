@@ -45,7 +45,7 @@
     </Reference>
     <Reference Include="Rex, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\0学习资料\Regular.Expressions\Rex.exe</HintPath>
+      <HintPath>D:\Regular.Expressions\Rex.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
